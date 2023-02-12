@@ -276,7 +276,7 @@ footer {
 @media screen and (max-width: 768px) {
     
     html{
-        font-size: 45% ;
+        font-size: 50% ;
     }
 
     .logo{
@@ -292,24 +292,10 @@ footer {
 @media screen and (max-width: 576px) {
     
     html{
-        font-size: 40% ;
+        font-size: 45% ;
     }
 
     
-    .our-students-list{
-        padding: 0 .5rem;
-    }
 }
 
-@media screen and (max-width: 400px) {
-    
-    html{
-        font-size: 30% ;
-    }
-
-    /* .logo{
-        width: 13%;
-    } */
-    
-}
 
