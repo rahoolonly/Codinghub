@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+i {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 10rem;
+}
+
+.logo {
+  width: 5%;
+}
+
+.logo > a > img {
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+ul > li > a {
+  font-size: 1.7rem;
+  color: black;
+  text-decoration: none;
+}
+
+.main-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url("./img/pexels-christina-morillo-1181474.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 86vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-section-heading {
+  font-size: 6rem;
+  color: white;
+}
+
+.courses {
+  margin-top: 6rem;
+}
+
+.courses-heading {
+  position: relative;
+}
+.courses-heading::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  background-color: rgb(134, 131, 131);
+  width: 15%;
+  margin-top: 0.5rem;
+  height: 1px;
+}
+
+.courses-content {
+  margin-top: 6rem;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 13rem;
+}
+.course {
+  /* background-color: pink; */
+  border: 1px solid black;
+  border-radius: 3rem;
+  padding: 1rem;
+  gap: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.course-image {
+  width: 80%;
+}
+
+.whyUs {
+  color: rgb(26, 2, 2);
+  padding-top: 5rem;
+  background-color: rgba(243, 235, 235, 0.4);
+  margin-top: 8rem;
+}
+
+.whyUs-heading {
+  position: relative;
+}
+.whyUs-heading::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  background-color: rgb(134, 131, 131);
+  width: 10%;
+  margin-top: 0.8rem;
+  height: 1px;
+}
+
+.whyUs-Contents {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.whyUs-content {
+  gap: 2rem;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-students {
+  margin-top: 6rem;
+}
+
+.our-students-heading {
+  position: relative;
+}
+.our-students-heading::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  background-color: rgb(134, 131, 131);
+  width: 15%;
+  margin-top: 0.8rem;
+  height: 1px;
+}
+
+.our-students-list {
+  margin-bottom: 6rem;
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.our-student {
+  padding: 3rem 3rem;
+  border-radius: 3rem;
+  background-color: rgb(240, 240, 240);
+  width: 40%;
+  gap: 1rem;
+  flex-direction: column;
+  display: flex;
+}
+
+.student-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.student-profile {
+  margin-top: 0.2rem;
+  font-size: 1.1rem;
+  font-weight: 550;
+}
+
+.contactUs {
+  margin-top: 3rem;
+  /* text-align: center;
+    margin-bottom: 9rem; */
+  margin-left: 11rem;
+}
+
+.contactUs-heading {
+  position: relative;
+}
+.contactUs-heading::before {
+  position: absolute;
+  content: "";
+  top: 100%;
+  background-color: rgb(134, 131, 131);
+  width: 14%;
+  margin-top: 0.8rem;
+  height: 1px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+input {
+  margin-top: 1.4rem;
+  width: 20%;
+  border-radius: 0.5rem;
+  border: 0.3px solid black;
+  outline: none;
+  padding: 0.5rem 1.3rem;
+  font-size: 1.5rem;
+}
+
+textarea {
+  resize: none;
+  width: 40%;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+button {
+  background-color: transparent;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 3rem;
+
+}
+footer {
+  font-size: 1.3rem;
+  color: white;
+  padding: 1rem 0;
+  background: #000;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    html{
+        font-size: 45% ;
+    }
+
+    .logo{
+        width: 13%;
+    }
+
+    button{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    
+    html{
+        font-size: 40% ;
+    }
+
+    
+    .our-students-list{
+        padding: 0 .5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    
+    html{
+        font-size: 30% ;
+    }
+
+    /* .logo{
+        width: 13%;
+    } */
+    
+}
+
