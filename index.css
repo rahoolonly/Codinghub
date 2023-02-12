@@ -45,7 +45,7 @@ nav {
 }
 
 .logo {
-  width: 5%;
+  width: 6%;
 }
 
 .logo > a > img {
@@ -273,14 +273,18 @@ footer {
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     
     html{
-        font-size: 50% ;
+        font-size: 60% ;
+    }
+
+    nav{
+        padding: .3rem 2rem ;
     }
 
     .logo{
-        width: 13%;
+        width: 11%;
     }
 
     button{
@@ -292,9 +296,37 @@ footer {
 @media screen and (max-width: 576px) {
     
     html{
-        font-size: 45% ;
+        font-size: 55% ;
+    }
+    nav{
+        padding: .3rem 1.5rem ;
     }
 
+    .logo{
+        width: 15%;
+    }
+
+    .main-section-heading{
+        font-size: 5rem;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    html{
+
+        font-size: 35%;
+    }
+   
+    nav{
+        padding: .3rem 2.5rem !important;
+    }
+    .main-section-heading{
+        font-size: 4rem;
+    }
+    .logo{
+        width: 10%;
+    }
     
 }
 
