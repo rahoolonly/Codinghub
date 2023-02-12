@@ -263,7 +263,6 @@ button {
   border: none;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
   margin-bottom: 3rem;
-
 }
 footer {
   font-size: 1.3rem;
@@ -274,60 +273,64 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    
-    html{
-        font-size: 60% ;
-    }
+  html {
+    font-size: 60%;
+  }
 
-    nav{
-        padding: .3rem 2rem ;
-    }
+  nav {
+    padding: 0.3rem 2rem;
+  }
 
-    .logo{
-        width: 11%;
-    }
+  .logo {
+    width: 11%;
+  }
 
-    button{
-        font-size: 1rem;
-    }
-    
+  .contactUs {
+    margin-left: 2.5rem;
+  }
+
+  button {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
-    
-    html{
-        font-size: 55% ;
-    }
-    nav{
-        padding: .3rem 1.5rem ;
-    }
+  html {
+    font-size: 55%;
+  }
+  nav {
+    padding: 0.3rem 1.5rem;
+  }
 
-    .logo{
-        width: 15%;
-    }
+  .logo {
+    width: 15%;
+  }
 
-    .main-section-heading{
-        font-size: 5rem;
-    }
-    
+  .main-section-heading {
+    font-size: 5rem;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    html{
+  html {
+    font-size: 50%;
+  }
 
-        font-size: 35%;
-    }
-   
-    nav{
-        padding: .3rem 2.5rem !important;
-    }
-    .main-section-heading{
-        font-size: 4rem;
-    }
-    .logo{
-        width: 10%;
-    }
-    
+  .main-section-heading {
+    font-size: 4rem;
+    padding: 0 1rem;
+  }
+  .logo {
+    width: 13%;
+  }
 }
 
+@media screen and (max-width: 326px) {
+  html {
+    font-size: 40%;
+  }
 
+  .main-section-heading {
+    font-size: 3rem;
+  }
+}
